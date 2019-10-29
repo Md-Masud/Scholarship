@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>Scholarship</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script type="text/javascript">
+
+	
+
+</script>
+<body>
+	<div class="container">
+	<div class="heading">
+		<h1>Scholarship</h1>
+	</div>
+	<div class="clear"></div>
+	<hr>
+
+	<div id="reg">
+		<fieldset>
+			<legend>Eligibility Test</legend>
+			<form name="myfrom" action="#" method="POST"  onsubmit= "return validateFrom(); ">
+			    <div class="rows1">
+					<input type="text" placeholder="ID" name="id" id="id" >
+				</div>
+				<div class="rows2">
+					<input type="text" placeholder="Name" name="Name" id="Name" class="rows">
+				</div>
+                <div class="rows3">  				
+					<select id="sub" name ="sub">
+						<option value="0">Department</option>
+						<option value="1">SWE</option>
+						<option value="2">CSE</option>
+						<option value="3">BBA</option>
+					</select> 
+				</div >
+				<div class="rows4">
+					<input type="number" placeholder=" Batch &nbsp" name="Batch" id="Batch">
+				</div >
+				<div class="rows5">
+					<input type="text" placeholder="OverallCGPA" name="OverallCGPA" id="OverallCGPA">
+				</div>
+				<div class="rows6">
+					<input type="text" placeholder=" Current CGPA" name="CGPA" id="CGPA">
+				</div >	
+				<div class="rows14">
+				   <label for="dept">Campas</label>
+				<div class="rows8">
+				    <input type="radio" onclick="Check();" name="m_catrgory" value="Main" id="Main" checked="true">
+				    <span class="div1"> Main</span>
+				</div>
+				<div class="rows9">
+					<input type="radio" onclick="Check();" name="m_catrgory" value="Permanent" id="Permanent"><span>Permanent</span>
+				</div >
+				<div class="rows10">
+					<input type="radio" onclick="Check();" name="m_catrgory" value="Uttara" id="Uttara"><span>Uttara</span>
+				</div >
+				</div>
+			    <div class="rows11">
+					<<input type="date"placeholder="Date" name="tdata" id="tdata" />
+                </div >
+				<div class="rows12">
+					<input type="checkbox" name="terms" id="terms"> I am a Childend of Figther<a href="#"></a>
+				</div >	                                              											 
+		         <div class="rows13">
+					<input type="submit" value="Submit" name="submit">
+				</div>
+				<div id="state">
+				</div>
+			</form>
+		</fieldset>
+	
+	
+
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
